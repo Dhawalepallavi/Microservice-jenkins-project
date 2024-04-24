@@ -76,7 +76,6 @@ spec:
   selector:
     matchLabels:
       app: checkoutservice
-      namespace: webapps
   template:
     metadata:
       labels:
